@@ -39,3 +39,16 @@ section.container p {
   margin-top: 4%;
   color: var(--Grayish-blue);
 }
+
+@media (min-width: 1024px) {
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  section.container {
+    width: 45%;
+    padding: 2% 2% 5% 2%;
+  }
+}
