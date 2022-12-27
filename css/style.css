@@ -14,47 +14,29 @@
 body {
   font-family: "Outfit", sans-serif;
   background-color: var(--Light-gray);
-  width: 100vw;
-  height: 100vh;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
+  min-height: 100vh;
 }
 body p {
-  font-size: 15px;
-}
-section.container {
-  width: 90%;
+  font-size: 1em;
+}main.container {
+  max-width: 320px;
   display: flex;
   flex-direction: column;
   background-color: var(--white);
   text-align: center;
-  padding: 5% 5% 10% 5%;
+  /* margin: 32px 16px 32px 16px; */
+  padding: 8px;
   border-radius: 16px;
-}
-section.container img {
+}main.container img {
   border-radius: 16px;
-  margin-bottom: 8%;
-}
-section.container h1 {
+  margin-bottom: 8px;
+}main.container h1 {
   color: var(--Dark-blue);
-}
-section.container p {
+}main.container p {
   padding: 0px 12px;
-  margin-top: 4%;
+  margin-top: 16px;
   color: var(--Grayish-blue);
-}
-@media (min-width: 1024px) {
-  body {
-    max-width: 1024px;
-    margin: 0 auto;
-  }
-  section.container {
-    width: 35%;
-    padding: 16px 16px 64px 16px;
-  }
-  section.container img {
-    border-radius: 16px;
-  }
 }
